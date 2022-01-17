@@ -1,0 +1,193 @@
+/* Personal Project Style Sheet */
+
+/* Font Squirrel */
+@font-face {
+    font-family: 'fonts/source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+font-family: 'fonts/source_sans_proregular', arial, verdana, sans-serif;
+font-style: normal;
+font-size: 3em;
+font-weight: bold; 
+color: white;
+background-color: black;
+height: 200px;
+line-height: 200px;
+text-align:center;
+}
+
+P {margin: 0;
+padding: 0 0 0 20px;
+font-size: 1.2em;
+}
+
+body {
+font-family: arial, verdana, sans-serif;
+font-style: normal;
+}
+
+#wrapper {
+background-color:#fff;
+max-width:1360px;
+margin:0 auto;
+min-width:320px;
+}
+
+h1 {
+text-align: center;
+}
+
+#mov {
+padding: 0 70px 20px 70px;
+}
+
+#container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 0;
+}
+
+.divwidth {
+width: 300px;
+}
+
+figure {
+padding: 0 0 25px 0;
+}
+
+footer{
+font-family: arial, verdana, sans-serif;
+font-style: normal;
+font-size: 1.5em; 
+font-weight: bold;
+height: 180px;
+line-height: 180px;
+text-align: center;
+color: white;
+background-color: black;
+margin: 20px 0 0 0;
+}
+
+ul li{
+list-style-type: none;
+clear: both
+}
+
+#nav5_container{
+margin:0px 0;
+background-color:#999999;
+border:1px solid #2e3133;
+}
+
+#nav5{
+padding:0;
+margin:0;
+text-align:center;
+height:65px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+}
+
+#nav5 li{
+width:140px;
+margin:5px 0;
+list-style:none;
+}
+
+#nav5 li a{
+padding:5px 20px;
+margin:0 2px;
+background-color:#2e3133;
+border:1px solid #fff;
+text-decoration:none;
+font-size: 13px;
+display: block;
+}
+
+#nav5 li a:link{
+color:#ddd;
+}
+
+#nav5 li a:visited{
+color:#fff;
+}
+
+#nav5 li a:hover{
+color:#fff;
+background-color:#999999;
+}
+
+#nav5 li a:active{
+color: purple;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px){
+header {
+font-size: 2.3em;
+height: 150px;
+line-height: 150px;
+}
+footer {
+height: 150px;
+line-height: 150px;        
+}
+}
+
+.lbreak {
+white-space: pre-line;
+}
+
+@media screen and (max-width: 775px){
+header {
+font-size: 1.7em;
+height: 130px;
+line-height: 130px;  
+}
+footer {
+height: 130px;
+line-height: 130px;        
+}
+#nav5 li a {
+font-size: 8px;
+padding:5px 1px;
+}
+#nav5 {
+height: 55px;
+}
+}
+
+@media screen and (max-width: 580px){
+header {
+font-size: 0.9em;
+height: 75px;
+line-height: 75px;
+}
+footer {
+font-size:1.0em;
+height: 75px;
+line-height: 75px;
+}
+.responsive {
+width: 200px;
+height: 283px;
+}
+.resp2 {
+width: 200px;   
+}
+.lbreak {
+white-space: normal;
+}
+#mov1 {
+padding: 0 50px 20px 50px;
+}
+}

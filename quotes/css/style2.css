@@ -1,0 +1,20 @@
+/* CSS modifications Tom Johnson */
+
+body {
+	background-color: #add8e6;
+	color: #000;
+}
+
+h1,h2,h3,h4,h5,h6,#footer{ 
+    color: #000;
+}
+
+h1:after,h2:after,h3:after,h4:after,h5:after,h6:after,li:after{
+	color: #f00;
+}
+
+blockquote{
+	border-left:5px #f00 solid;
+	color: #000;
+}
+

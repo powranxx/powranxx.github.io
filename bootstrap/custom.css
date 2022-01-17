@@ -1,0 +1,66 @@
+/* Redesign Extra Credit Project */
+
+/* Font Squirrel */
+@font-face {
+font-family: 'fonts/source_sans_proregular';
+src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+.myFooter{
+font-family: sans-serif;
+color: #fff;
+background-color:#0C2340;
+height: 200px;
+line-height: 200px;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+}
+
+#footer1{
+font-size: 2em;}
+
+.hero-car{
+background: url(hero_1370_913.jpg) no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;}
+
+.x1{
+font-family: 'fonts/source_sans_proregular', arial, verdana, sans-serif;
+color:#fff;
+font-size: 3em;
+}
+
+.x2{
+font-family: 'fonts/source_sans_proregular', arial, verdana, sans-serif;
+background-color: #3c434d;
+color:#fff;
+font-size: 3em;
+padding-top: 30px;
+}
+
+.x3{
+background-color: #3c434d;}
+
+.home_container{
+color:#fff;
+position: relative;
+top: 380px;
+} 
+
+h2{
+text-align: center;
+padding:10px 0 10px 0px;}
+
+.container2 {
+color:#fff;
+max-width: 1370px;
+height: auto;}
+
+.subaru2{
+padding: 20px;}

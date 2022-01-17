@@ -1,0 +1,24 @@
+/*
+CSS Styles
+*/
+
+body { 
+font-family: sans-serif;
+background-color: silver;
+}
+
+#r {
+    color: red;}
+#o {
+    color: orange;}
+#y {
+    color: yellow;}
+#g {
+    color: green;}
+#b {
+    color: blue;}
+#i {
+    color: indigo;}
+#v {
+    color: violet;}
+

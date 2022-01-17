@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Captain America</title>
+    
+<!--
+References:
+
+Essential video games for college students, Tyler Duncan, 2018, 
+The Rocky Mountain Collegian
+
+College students are avid gamers, Jane Weaver, 2013, msnbc.com
+-->
+    
+<link rel="stylesheet" type="text/css" href="normalize_v8.css">
+<link rel="stylesheet" type="text/css" href="styleproject.css">
+<script src="JavaScript.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+
+<header><p>Basic Video Games For College Students</p></header>
+
+<div id="nav5_container">
+<ul id="nav5">
+<li><a href="index.html" >Home</a></li>
+<li><a href="witness.html">The Witness</a></li>
+<li><a href="half_life.html">Half-Life</a></li>
+<li><a href="dragon_age.html">Dragon Age</a></li>
+<li><a href="rocket_league.html">Rocket League</a></li>
+</ul>
+</div>
+
+<article>
+    
+<h1>Dragon Age</h1>
+    
+<div id="container">
+    
+<div class="divwidth">
+<p id="mov1">Good stories for three-day weekends:  Dragon Age<br><br>
+    
+A personal favorite of ours with a riveting story, exploration, romance and player choices that affect the game. In this game, templars and mages meet together to discuss peace as a mysterious “breach” appears in the sky, and only you have the power to close it. This game has hours of fun in just the main story, with plenty of well-detailed side quests, optional companion missions with incredible stories and epic moments. We bought the game back in 2015 and it has remained on our list of top favorite games ever since.</p>
+</div>
+    
+<div>
+<figure>
+<img class="responsive" src="dragon_age.gif" alt="dragon age" width="300" height="300">
+<figcaption class="divwidth resp2">You aren’t just the leader of some merry band of adventurers, but the focal point of a sweeping, large-scale movement to bring reform and order to a land ripped apart by civil war and political strife. Literally, in a way, as interdimensional demon-spewing rifts are tearing holes in the sky across the world.</figcaption>
+</figure>
+</div>
+    
+<div>
+<figure>
+<img class="responsive" src="dragon_age_cover_300.png" alt="witness" width="300" height="424"
+                         srcset="dragon_age_cover_300.png 300w,
+                                 dragon_age_cover_200.png 200w"
+                         sizes="(max-width:580px) 10vw">
+<figcaption class="resp2 lbreak">Good stories for three-day weekends:
+    Dragon Age</figcaption>
+</figure>
+</div>
+
+</div>
+    
+</article>
+
+<footer>©2019 Captain America&nbsp;&nbsp;
+</footer>
+
+</div>    
+
+</body>
+</html>
