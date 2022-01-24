@@ -2,6 +2,13 @@
 <html>
 <head>
     <title>Snake!</title>
+
+     <!--
+    Code for a version of the classic arcade game Snake from 
+    JavaScript for Kids: A Playful Introduction to Programming, 
+    Nick Morgan, Published by No Starch Press, 2014
+    -->
+
 </head>
 <body>
     <canvas id="canvas" width="400" height="400"></canvas>
