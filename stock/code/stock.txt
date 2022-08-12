@@ -1,0 +1,15 @@
+import yfinance as yf
+yf.pdr_override() 
+import datetime as dt
+from matplotlib import pyplot as plt
+from pandas_datareader import data as pdr
+start = dt.datetime(2015, 1, 1)
+end = dt.datetime.now()
+df = pdr.get_data_yahoo('^GSPC', start, end)
+df['Close'].plot(figsize = (8, 8), label = '^GSPC')
+plt.style.use('ggplot')
+plt.title('S&P 500')
+plt.legend(loc = 'lower right')
+plt.ylabel('Price in USD', fontsize = 10)
+plt.grid(color = 'black', linestyle = '--', linewidth = 1)
+plt.show()
