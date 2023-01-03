@@ -4,15 +4,15 @@ External JavaScript
 
 $(document).ready(function() {   // Ruff & Reddy
 
-    var direction = "right";
-    var leftOffset = 50;
-    var leftOffsetR = leftOffset + 200;
-    var topOffset = 50;
-    var topOffsetB = topOffset +200;
+    let direction = "right";
+    let leftOffset = 50;
+    let leftOffsetR = leftOffset + 200;
+    let topOffset = 50;
+    let topOffsetB = topOffset +200;
 
     $("#ruff_and_reddy").offset({ left: leftOffset, top: topOffset });
     
-    var animateSquare = function () {
+    let animateSquare = function () {
         
         switch(direction) {
         
@@ -27,7 +27,7 @@ $(document).ready(function() {   // Ruff & Reddy
              
         case "down":
         $("#ruff_and_reddy").offset({ top: topOffset });
-        topOffset = topOffset + 2;  // spped up down trip!
+        topOffset = topOffset + 4;  // speed up down trip!
         if (topOffset > 250) {
           topOffset = 50;
           direction = "left";
@@ -45,12 +45,11 @@ $(document).ready(function() {   // Ruff & Reddy
         break;
       
         case "up":
-        //alert("it is" + topOffsetB);
         $("#ruff_and_reddy").offset({ top: topOffsetB });
-        topOffsetB--;
+        topOffsetB--;  
         if (topOffsetB < 50) {
           topOffset = 50;
-          topOffsetB = topOffset +200;
+          topOffsetB = topOffset + 200;  
           direction = "right";
         } 
         break;
