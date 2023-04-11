@@ -10,7 +10,10 @@
     <title>APOD</title>
     <style>
         #picture {
-          max-width: 100%
+          /* max-width: 100%;  4/10/2023 */
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
         } 
         h1 {
             text-align: center;
