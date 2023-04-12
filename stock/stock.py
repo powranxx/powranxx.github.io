@@ -7,8 +7,8 @@ start = dt.datetime(2015, 1, 1)
 end = dt.datetime.now()
 df = pdr.get_data_yahoo('^GSPC', start, end)
 
-#for key, value in yf.Ticker('^GSPC').info.items():
-#    print(key, ":", value)
+# for key, value in yf.Ticker('^GSPC').info.items():
+#     print(key, ":", value)
 
 df['Adj Close'].plot(label = '^GSPC')
 
